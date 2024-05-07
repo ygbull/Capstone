@@ -4,7 +4,7 @@
 - [exploit script](exploit/exploit.sh)
 - [run keylogger](exploit/run.sh)
 - [add keylogger to boot file](exploit/rewriteBoot.sh)
-- [keylogger](exploit/weather.py)
+- [keylogger](scripts/weather.py)
 ## Binary
 [A seemingly checking weather keylogger binary](exploit/weather)
 ## Email
