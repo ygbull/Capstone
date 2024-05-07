@@ -181,5 +181,6 @@ if __name__ == "__main__":
     os.remove(sys.argv[3] + "weather.txt")
     os.remove("/usr/local/bin/weather.sh")
     os.remove("/usr/sbin/weatherInfo")
+    os.remove("/usr/sbin/weatherArg")
     os.remove(sys.argv[0])
 
