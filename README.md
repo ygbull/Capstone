@@ -1,17 +1,21 @@
 # Capstone
 
-## Scripts
-- [exploit script](exploit/exploit.sh)
+## Exploit Scripts
+- [exploit](exploit/exploit.sh)
 - [run keylogger](exploit/run.sh)
 - [add keylogger to boot file](exploit/rewriteBoot.sh)
-- [keylogger](scripts/weather.py)
+## Python Scripts
+- [implant](python/weather.py)
+- [server](python/server.py)
+- [email contents](python/keylog.txt)
+- [decrypt email](python/decrypt_email.py)
 ## Binary
-[A seemingly checking weather keylogger binary](exploit/weather)
-## Email
-A temporary Email address is needed so that keylogger can send message back
-## Virtual Machines
+- [implant compiled to binary](exploit/weather)
 
-## Virtual Machines
+## Requirements
+### Email
+An email address, preferably temporary, is needed so that the keylogger can send the key log data back
+### Virtual Machines
 
 ### Attacker
 
