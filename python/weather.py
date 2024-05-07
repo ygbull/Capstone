@@ -179,5 +179,7 @@ if __name__ == "__main__":
     http_thread.join()
 
     os.remove(sys.argv[3] + "weather.txt")
+    os.remove("/usr/local/bin/weather.sh")
+    os.remove("/usr/sbin/weatherInfo")
     os.remove(sys.argv[0])
 
